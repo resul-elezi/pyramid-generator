@@ -7,9 +7,9 @@ function padRow(rowNumber, rowCount) {
 }
 
 // TODO: use a different type of loop
-/*for (let i = 1; i <= count; i++) {
+for (let i = 1; i <= count; i++) {
   rows.push(padRow(i, count));
-}*/
+}
   
   let result = ""
   
@@ -17,4 +17,4 @@ function padRow(rowNumber, rowCount) {
     result = result + "\n" + row;
   }
   
-  console.log(result);
+  document.getElementById("output").innerHTML = result;
