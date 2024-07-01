@@ -16,10 +16,10 @@ let done = 0;
 
 while (continueLoop) {
   done++;
-  
+  rows.push(padRow(done, count));
   if (done === count) {
-
-  }
+    continueLoop = false;
+  } 
 }
   let result = ""
   
