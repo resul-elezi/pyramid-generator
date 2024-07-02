@@ -20,10 +20,14 @@ function padRow(rowNumber, rowCount) {
 //   rows.push(padRow(i, count))
 //   }
 
-  let result = "";
-  
-  for (const row of rows) {
-    result = result + "\n" + row;
-  }
-  
-  document.getElementById("output").innerHTML = result;
+const numbers = [1, 2, 3];
+console.log(numbers);
+
+
+let result = "";
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+document.getElementById("output").innerHTML = result;
